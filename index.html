@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>dungeon - Light Layout version</title>
+    <link href="style.css" type="text/css" rel="stylesheet">
+    <script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+</head>
+    <body>
+        <div class="topbar">
+            <img src="Hamburger_icon.svg.png" id="bars">
+            <h1>dungeon</h1>
+            <form action="#">
+                <input type="search" name="search">
+                <input type="image" src="search-icon.png">
+            </form>
+            <div class="navBar">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Explore</a></li>
+                    <li class="dropdownmain">
+                        <a href="#" class="dropbtn">Dropdown</a>
+                        <div class="dropdown">
+                        <a href="#">Offer 1 Goes Here</a>
+                        <a href="#">Offer 2 Here</a>
+                        <a href="#">And here offer 3</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="login">
+                <button>Log In</button>
+                <div class="loginbox">
+                    <form action="#" method="post">
+                        <h4>E-MAIL:</h4>
+                        <input type="email" name="email">
+                        <h4>PASSWORD:</h4>
+                        <input type="password" name="password">
+                        <input type="submit" value="Log In">
+                    </form>
+                </div>
+            </div>
+            <div class="profile">
+            <img src="profile-icon.png" id="proIcon">
+            <div class="profilebox">
+                <h4>Aneek Rahman</h4>
+                <h5>Something Here</h5>
+                <h5>Something here</h5>
+                <h5>How about a good ol</h5>
+                <h5>Click counter here?</h5>
+                <h5 id="counter">Counter:<output> 0</output></h5>
+                <button>CLICK ME!</button>
+            </div>
+            </div>
+        </div>
+        <div class="sidebar">
+            <h4 class="prependbefore">News Trending</h4>
+            <ul>
+                <li>Policies</li>
+                <li></li>
+                <li>News go here</li>
+                <li>News go here</li>
+                <li>News go here</li>
+            </ul>
+        </div>
+        <script src="javamain.js"></script>
+    </body>
+</html>
